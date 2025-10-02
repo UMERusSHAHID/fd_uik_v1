@@ -37,6 +37,7 @@ dependencies:
   flutter_native_splash: ^2.4.6
   flutter_screenutil: ^5.9.3
   go_router: ^16.2.4
+  flutter_svg: ^2.2.1
 
 dev_dependencies:
   flutter_test:
@@ -80,6 +81,10 @@ flutter:
     - family: SfProRounded
       fonts:
         - asset: assets/fonts/SF-Pro-Rounded-Heavy.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Rounded-Semibold.otf
+          weight: 600
     - family: SfProText
       fonts:
         - asset: assets/fonts/SF-Pro-Text-Semibold.otf
