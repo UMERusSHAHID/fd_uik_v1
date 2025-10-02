@@ -88,7 +88,8 @@ flutter:
     - family: SfProText
       fonts:
         - asset: assets/fonts/SF-Pro-Text-Semibold.otf
-
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+          weight: 400
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 flutter_native_splash:

@@ -10,4 +10,5 @@ class AppColors {
   static const blackText = Color(0xff000000);
   static const textFieldBackground = Color(0xffEFEEEE);
   static const searchHint = Color(0xff787777);
+  static const disableText = Color(0xff787777);
 }
