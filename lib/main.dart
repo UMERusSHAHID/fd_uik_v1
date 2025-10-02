@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_delivery_kit/core/routes/app-routes.dart';
 
 import 'features/auth/screens/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
+ final routes = appRoutes;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,9 +20,9 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        return MaterialApp(
+        return MaterialApp.router(
           debugShowCheckedModeBanner: false,
-          home: WelcomePage(),
+          routerConfig: appRoutes,
         );
       },
     );

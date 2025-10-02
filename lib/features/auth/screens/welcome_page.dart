@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
 
@@ -25,6 +26,9 @@ class WelcomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 36.0).r,
               child: GestureDetector(
+                onTap: (){
+                  context.go('/home');
+                },
                 child: Container(
                   width: 340.w,
                   height: 70.h,
