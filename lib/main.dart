@@ -8,7 +8,7 @@ void main() {
   runApp(const MyApp());
 }
 
- final routes = appRoutes;
+final routes = appRoutes;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
